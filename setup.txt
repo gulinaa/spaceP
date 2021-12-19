@@ -1,0 +1,13 @@
+1. Create folder for project
+2. In this folder create virtual environment (okrujenie)
+3. Create fail requirements.txt
+4. Set pip3 install -r requirements.txt
+5. Create Django-project (django-admin startproject name)
+6. Create apps python3 manage.py startup name
+7. Create DB
+8. Set settings.py (specify apps v  installed_apps, specify connection to DB etc.)
+9. Create user's model
+10. In settings.py needs to mention AUTH_USER_MODEL
+11. Make migration:
+python3 manage.py makemigrations
+python3 manage.py migrate

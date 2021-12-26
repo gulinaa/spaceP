@@ -1,0 +1,8 @@
+.venv
+.env
+setup.txt
+lib-dynload
+python3.8
+site packages
+media
+
